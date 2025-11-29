@@ -1,0 +1,10 @@
+^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\640D82EE9437095BB72070337EBCB779\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/spdlog-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

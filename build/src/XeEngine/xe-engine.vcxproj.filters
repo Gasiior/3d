@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\ColorMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\mesh_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\PhongMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\ColorMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\mesh_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\PhongMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\lights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\glad.dir\$(Configuration)\gl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{36852728-F9A7-356B-82EC-05A1CAFCEA81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{62C441A2-3E6B-3E4A-B128-26922803DF74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C9900E1-C51A-373F-A9B6-23BC1F534F4C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

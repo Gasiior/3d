@@ -1,0 +1,10 @@
+^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\CMAKEFILES\8A779BD3E37D2813DEC2D9487699E301\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/Graphics3DCode.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

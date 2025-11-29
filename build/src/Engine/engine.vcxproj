@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8565EAEA-94AC-3C0D-A37C-B9F99A823D75}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>engine</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Engine\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">engine.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">engine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Engine\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">engine.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">engine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Engine\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">engine.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">engine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Engine\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">engine.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">engine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="Engine";PROJECT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"Engine\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="Engine";PROJECT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"Engine\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="Engine";PROJECT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"Engine\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="Engine";PROJECT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"Engine\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Engine\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Engine/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Engine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Engine/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Engine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Engine/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Engine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Engine/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Engine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Engine\Mesh.h" />
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Engine\Mesh.cpp" />
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Engine\Material.h" />
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Engine\Material.cpp" />
+    <Object Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\glad.dir\$(Configuration)\gl.obj" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\ZERO_CHECK.vcxproj">
+      <Project>{71C9F747-A278-3A03-B32C-E45A79650DA6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\glad.vcxproj">
+      <Project>{B633C571-F6A5-3005-A6A7-F448D932FB80}</Project>
+      <Name>glad</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-build\src\glfw.vcxproj">
+      <Project>{1921BAE0-B519-35BE-A5B3-DF63BA3DB5BD}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-build\glm\glm.vcxproj">
+      <Project>{0B907BE9-B131-3108-A05D-D3C87DBAF01A}</Project>
+      <Name>glm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

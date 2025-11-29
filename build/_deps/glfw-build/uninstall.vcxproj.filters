@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\CMakeFiles\ccb8b9552dc1fadc382baf2f9504b3c9\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{66C92454-DB6F-3D7E-936A-918A98A52A57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

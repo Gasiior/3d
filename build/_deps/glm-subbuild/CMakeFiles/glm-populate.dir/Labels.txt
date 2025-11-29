@@ -1,0 +1,14 @@
+# Target labels
+ glm-populate
+# Source files and their labels
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/glm-populate
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/fb0f4eb9ba415bb41114264587cf3808/glm-populate.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/6d8cc7fa847b1c3703422d8ce77b67b1/glm-populate-complete.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/959124470664328335f46cde9556490f/glm-populate-build.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/959124470664328335f46cde9556490f/glm-populate-configure.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/959124470664328335f46cde9556490f/glm-populate-download.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/959124470664328335f46cde9556490f/glm-populate-install.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/959124470664328335f46cde9556490f/glm-populate-mkdir.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/959124470664328335f46cde9556490f/glm-populate-patch.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/959124470664328335f46cde9556490f/glm-populate-test.rule
+C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-subbuild/CMakeFiles/959124470664328335f46cde9556490f/glm-populate-update.rule

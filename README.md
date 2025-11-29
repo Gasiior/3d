@@ -2,13 +2,6 @@
 
 This repository contains the "Hello World!" equivalent for OpenGL C++ programming.  This will be the starting point for your assignments. 
 
-## Downloading 
-
-To download the project you have to clone the repository
-```shell
-git clone https://github.com/kprzystalski/3d.git
-```
-
 ## Building 
 
 ### "Plain vanilla" (Linux/Unix via command line)
@@ -28,7 +21,7 @@ make -j
 
 While you may work via command line and your prefered text editor it is much more comfortable to use an IDE. I recommend [Visual Studio Code](https://code.visualstudio.com/) which is available on Linux, Mac OS and Windows.   
 
-After installing VS Code use it to open folder containing the  project repository. You should install the  recommended extension. The list is in the `.vscode/extensions.json` file, but you should be prompted to do this after opening the project folder. Also on opening you may by prompted to configure the project. You will have to choose the the kit used for compilation, you will need a C++17 compiler. On Linux and Mac OS I am using clang (10 or higher) but you can also use g++. 
+After installing VS Code use it to open folder containing the  project repository. You should install the  recommended extension. The list is in the `.vscode/extensions.json` file, but you should be prompted to do this after opening the project folder. Also on opening you may by prompted to configure the project. You will have to choose the the kit used for compilation, you will need a C++17 compiler. On Linux and Mac OS for example clang (10 or higher) but you can also use g++. 
 
 
 On windows you will need to install either [Visual Studio Community](https://visualstudio.microsoft.com/pl/vs/community/) edition or [Mingw-gw64](https://www.mingw-w64.org/). If you have VS Community installed then suitable kit should apear in the list of kits. After choosing it the configuration and build should proceed without problems. 

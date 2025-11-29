@@ -18,7 +18,7 @@
 #include "XeEngine/ColorMaterial.h"
 #include "XeEngine/PhongMaterial.h"
 #include "XeEngine/Mesh.h"
-
+using uint = unsigned int;
 
 namespace {
     xe::ColorMaterial *make_color_material(const xe::mtl_material_t &mat, std::string mtl_dir);
@@ -40,7 +40,7 @@ namespace xe {
         auto n_indices = 3 * smesh.faces.size();
 
 
-        uint n_floats_per_vertex = 3;
+       unsigned int n_floats_per_vertex = 8;
         for (auto &&t: smesh.has_texcoords) {
             if (t)
                 n_floats_per_vertex += 2;

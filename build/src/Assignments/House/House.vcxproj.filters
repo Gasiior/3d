@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Assignments\House\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Assignments\House\app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Assignments\House\app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Assignments\House\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\glad.dir\$(Configuration)\gl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{36852728-F9A7-356B-82EC-05A1CAFCEA81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{62C441A2-3E6B-3E4A-B128-26922803DF74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C9900E1-C51A-373F-A9B6-23BC1F534F4C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

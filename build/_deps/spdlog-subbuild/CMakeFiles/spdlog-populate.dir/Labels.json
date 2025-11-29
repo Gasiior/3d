@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/640d82ee9437095bb72070337ebcb779/spdlog-populate.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/ee6566df689f609147ce847bc8d8eb01/spdlog-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/d7059bc7591d9ea301cf75cfd2ff3050/spdlog-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/d7059bc7591d9ea301cf75cfd2ff3050/spdlog-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/d7059bc7591d9ea301cf75cfd2ff3050/spdlog-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/d7059bc7591d9ea301cf75cfd2ff3050/spdlog-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/d7059bc7591d9ea301cf75cfd2ff3050/spdlog-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/d7059bc7591d9ea301cf75cfd2ff3050/spdlog-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/d7059bc7591d9ea301cf75cfd2ff3050/spdlog-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-subbuild/CMakeFiles/d7059bc7591d9ea301cf75cfd2ff3050/spdlog-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog-populate"
+		],
+		"name" : "spdlog-populate"
+	}
+}

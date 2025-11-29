@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(Triangle)
+project(MeshesMaterials)
 
 add_compile_definitions(PROJECT_NAME="${PROJECT_NAME}" PROJECT_DIR="${CMAKE_CURRENT_SOURCE_DIR}")
 
@@ -9,6 +9,6 @@ add_executable(${PROJECT_NAME}
         app.cpp
         )
         
-target_link_libraries(${PROJECT_NAME} PUBLIC )
+target_link_libraries(${PROJECT_NAME} PUBLIC PRIVATE spdlog::spdlog xe-engine)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/src)
 
