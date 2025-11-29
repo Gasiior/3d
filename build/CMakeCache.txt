@@ -258,6 +258,15 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Colors2_BINARY_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/src/Assignments/Colors2
+
+//Value Computed by CMake
+Colors2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Colors2_SOURCE_DIR:STATIC=C:/Users/klaud/Desktop/3d/src/Assignments/Colors2
+
+//Value Computed by CMake
 Engine_BINARY_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/src/Engine
 
 //Value Computed by CMake
@@ -561,6 +570,15 @@ glm_IS_TOP_LEVEL:STATIC=OFF
 glm_SOURCE_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/_deps/glm-src
 
 //Value Computed by CMake
+indices2_BINARY_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/src/Assignments/Indices2
+
+//Value Computed by CMake
+indices2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+indices2_SOURCE_DIR:STATIC=C:/Users/klaud/Desktop/3d/src/Assignments/Indices2
+
+//Value Computed by CMake
 indices_BINARY_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/src/Assignments/Indices
 
 //Value Computed by CMake
@@ -703,7 +721,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

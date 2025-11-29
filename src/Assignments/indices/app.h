@@ -62,6 +62,7 @@ public:
 private:
     GLuint vao_;
     GLuint u_pvm_buffer_;
+    GLuint program_;
 
     Camera *camera_;
 

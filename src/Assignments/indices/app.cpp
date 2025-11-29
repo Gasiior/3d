@@ -1,7 +1,3 @@
-//
-// Created by pbialas on 25.09.2020.
-//
-
 #include "app.h"
 
 #include <iostream>
@@ -17,50 +13,46 @@
 #include "XeEngine/ColorMaterial.h"
 
 #define STB_IMAGE_IMPLEMENTATION 1
-
 #include "3rdParty/stb/stb_image.h"
 
 void SimpleShapeApplication::init() {
-    // A utility function that reads the shader sources, compiles them and creates the program object
-    // As everything in OpenGL we reference program by an integer "handle".
+
+    // Tworzymy program cieniujący na podstawie plików z katalogu shaders
     auto program = xe::utils::create_program(
-            {{GL_VERTEX_SHADER,   std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
-             {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}});
+        { {GL_VERTEX_SHADER,   std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
+          {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"} });
 
     if (!program) {
         std::cerr << "Invalid program" << std::endl;
         exit(-1);
     }
-    
+
     glEnable(GL_DEPTH_TEST);
-    glEnable(GL_CULL_FACE); 
+    glDisable(GL_CULL_FACE);  // chcemy widzieć całość, bez odrzucania ścian
 
-      std::vector<GLushort> indices = {
-        // dół
-        0, 1, 2,
-        // środek + prawa strona dachu
-        0, 2, 3,
-        // lewa strona dachu
-        0, 3, 4
-    };
-    
-    // A vector containing the x,y,z vertex coordinates + texture coords
-     std::vector<GLfloat> vertices = {
-        // x,     y,     z,      u,    v
-
-        // 0 – lewy dół
-        -0.5f, -0.5f, 0.0f,     0.0f, 0.0f,
-        // 1 – prawy dół
-         0.5f, -0.5f, 0.0f,     1.0f, 0.0f,
-        // 2 – prawy bok (środek)
-         0.5f,  0.0f, 0.0f,     1.0f, 0.5f,
-        // 3 – czubek dachu
-         0.0f,  0.5f, 0.0f,     0.5f, 1.0f,
-        // 4 – lewy bok (środek)
-        -0.5f,  0.0f, 0.0f,     0.0f, 0.5f,
+    // Indeksy określają z których wierzchołków zbudowane są trójkąty:
+    // dwa trójkąty na "ściany" i jeden na dach.
+    unsigned int indices[] = {
+        // prostokąt (dolna część domku)
+        0, 1, 3,
+        0, 3, 2,
+        // trójkąt dachu
+        4, 5, 6
     };
 
-    // PVM uniform
+    // Każdy wierzchołek: pozycja (x,y,z) + kolor (r,g,b)
+    float vertices[] = {
+        // ściany – różne odcienie zieleni
+        -0.6f, -0.4f, 0.f,   0.10f, 0.80f, 0.15f,   // 0 lewy dół
+         0.6f, -0.4f, 0.f,   0.10f, 0.80f, 0.15f,   // 1 prawy dół
+        -0.6f,  0.20f, 0.f,  0.12f, 0.85f, 0.20f,   // 2 lewy góra ściany
+         0.6f,  0.20f, 0.f,  0.12f, 0.85f, 0.20f,   // 3 prawy góra ściany
+
+        // dach – odcienie czerwieni
+        -0.6f,  0.20f, 0.f,  0.90f, 0.10f, 0.10f,   // 4 lewy dolny róg dachu
+         0.6f,  0.20f, 0.f,  0.90f, 0.10f, 0.10f,   // 5 prawy dolny róg dachu
+         0.0f,  0.75f, 0.f,  0.95f, 0.20f, 0.15f    // 6 szczyt dachu
+    };
 
 #if __APPLE__
     auto u_modifiers_index = glGetUniformBlockIndex(program, "Modifiers");
@@ -71,102 +63,98 @@ void SimpleShapeApplication::init() {
     }
 #endif
 
+    // UBO na macierz rzutowania * widoku (P * V)
     glGenBuffers(1, &u_pvm_buffer_);
-    OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_));
-    glBufferData(GL_UNIFORM_BUFFER, 16 * sizeof(float), 0, GL_STATIC_DRAW);
+    glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
+    glBufferData(GL_UNIFORM_BUFFER, 16 * sizeof(float), nullptr, GL_STATIC_DRAW);
     glBindBufferBase(GL_UNIFORM_BUFFER, 1, u_pvm_buffer_);
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
-    
+
+    // konfiguracja kamery
     set_camera(new Camera);
 
     camera()->look_at(
-        glm::vec3(0, 1, 1),
-        glm::vec3(0, 0, 0),
-        glm::vec3(0, 1, 0)
+        glm::vec3(0, 1, 1),   // pozycja kamery
+        glm::vec3(0, 0, 0),   // punkt na który patrzymy
+        glm::vec3(0, 1, 0)    // wektor "góry"
     );
 
     int w, h;
     std::tie(w, h) = frame_buffer_size();
-    camera()->perspective(glm::pi<float>()/2.0, (float)w/h, 0.1f, 100.f);
+    camera()->perspective(glm::pi<float>() / 2.0f, (float)w / h, 0.1f, 100.f);
 
+    // obsługa myszki dla kamery
     set_controler(new CameraControler(camera()));
 
-    // loading texture
-    stbi_set_flip_vertically_on_load(true);
-    GLint width, height, channels;
-    auto texture_file = std::string(ROOT_DIR) + "/Models/multicolor.png";
-    auto img = stbi_load(texture_file.c_str(), &width, &height, &channels, 0);
-    if (!img) {
-        spdlog::warn("Could not read image from file `{}'", texture_file);
-    }
+    // Tworzymy VAO, VBO i EBO (index buffer)
+    unsigned int VBO, VAO, EBO;
+    glGenVertexArrays(1, &VAO);
+    glGenBuffers(1, &VBO);
+    glGenBuffers(1, &EBO);
 
-    GLuint texture_handle;
-    glGenTextures(1, &texture_handle);
-    glBindTexture(GL_TEXTURE_2D, texture_handle);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    glBindTexture(GL_TEXTURE_2D, 0);
+    glBindVertexArray(VAO);
 
-    stbi_image_free(img);
+    // wrzucamy wierzchołki do VBO
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-    // applying colours/texture
-    //xe::ColorMaterial::set_shader(program);
-    xe::ColorMaterial::init();
+    // wrzucamy indeksy do EBO
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
-    auto pyramid = new xe::Mesh;
+    // atrybut 0: pozycja (3 floaty)
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE,
+                          6 * sizeof(float),
+                          (void*)0);
+    glEnableVertexAttribArray(0);
 
-    size_t indices_sizeof = sizeof(indices[0]) * indices.size();
-    pyramid->allocate_index_buffer(indices_sizeof, GL_STATIC_DRAW);
-    pyramid->load_indices(0, indices_sizeof, indices.data());
+    // atrybut 1: kolor (3 floaty za pozycją)
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE,
+                          6 * sizeof(float),
+                          (void*)(3 * sizeof(float)));
+    glEnableVertexAttribArray(1);
 
-    size_t vertices_sizeof = sizeof(vertices[0]) * vertices.size();
-    pyramid->allocate_vertex_buffer(vertices_sizeof, GL_STATIC_DRAW);
-    pyramid->load_vertices(0, vertices_sizeof, vertices.data());
+    glBindVertexArray(0);
 
-    // atrybut 0 – pozycja (x, y, z)
-pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 6 * sizeof(vertices[0]), 0);
-// atrybut 1 – kolor (r, g, b)
-pyramid->vertex_attrib_pointer(1, 3, GL_FLOAT, 6 * sizeof(vertices[0]), 3 * sizeof(GLfloat));
-
-    // Colours based on pyramid from CameraMovement assignment, not Textures (pink > grey)
-    pyramid->add_submesh(0, 9, new xe::ColorMaterial(glm::vec4(1.f, 0.f, 0.f, 1.f)));
-
-    // Using texture
-    // for (int i = 0; i < indices.size(); i += 3)
-    // {
-    //     pyramid->add_submesh(i, i+3, new xe::ColorMaterial(glm::vec4(1.f), texture_handle));
-    // }
-
-    add_submesh(pyramid);
-
-    // Setting the background color of the rendering window,
-    // I suggest not to use white or black for better debuging.
-    glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
-
-    // This setups an OpenGL vieport of the size of the whole rendering window.
+    // kolor tła + viewport
+    glClearColor(0.81f, 0.81f, 0.80f, 1.0f);
     glViewport(0, 0, w, h);
 
+    // wybieramy program i wiążemy blok UBO z macierzą PVM
     glUseProgram(program);
+    GLuint idx = glGetUniformBlockIndex(program, "Transformations");
+    glUniformBlockBinding(program, idx, 1);
+
+    vao_ = VAO;
+    program_ = program;
 }
 
-//This functions is called every frame and does the actual rendering.
+// wywoływane co klatkę – rysowanie sceny
 void SimpleShapeApplication::frame() {
+
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    // liczymy macierz P * V i aktualizujemy UBO
     auto PVM = camera()->projection() * camera()->view();
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
-    
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    
-    for (auto m: meshes_)
-        m->draw();
+
+    // używamy naszego VAO i programu
+    glUseProgram(program_);
+    glBindVertexArray(vao_);
+
+    // najpierw rysujemy prostokąt (ściany) – 2 trójkąty
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, (void*)0);
+
+    // potem dach – ostatni trójkąt z indeksów
+    glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void*)(6 * sizeof(unsigned int)));
 }
 
 void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
     Application::framebuffer_resize_callback(w, h);
-    glViewport(0,0,w,h);
-    camera()->set_aspect((float) w / h);
+    glViewport(0, 0, w, h);
+    camera()->set_aspect((float)w / h);
 }
 
 void SimpleShapeApplication::mouse_button_callback(int button, int action, int mods) {
@@ -182,7 +170,6 @@ void SimpleShapeApplication::mouse_button_callback(int button, int action, int m
         if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_RELEASE)
             controler_->LMB_released(x, y);
     }
-
 }
 
 void SimpleShapeApplication::cursor_position_callback(double x, double y) {
