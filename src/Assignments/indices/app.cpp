@@ -124,8 +124,10 @@ void SimpleShapeApplication::init() {
     pyramid->allocate_vertex_buffer(vertices_sizeof, GL_STATIC_DRAW);
     pyramid->load_vertices(0, vertices_sizeof, vertices.data());
 
-    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 5 * sizeof(vertices[0]), 0);
-    pyramid->vertex_attrib_pointer(1, 2, GL_FLOAT, 5 * sizeof(vertices[0]), 3 * sizeof(GLfloat));
+    // atrybut 0 – pozycja (x, y, z)
+pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 6 * sizeof(vertices[0]), 0);
+// atrybut 1 – kolor (r, g, b)
+pyramid->vertex_attrib_pointer(1, 3, GL_FLOAT, 6 * sizeof(vertices[0]), 3 * sizeof(GLfloat));
 
     // Colours based on pyramid from CameraMovement assignment, not Textures (pink > grey)
     pyramid->add_submesh(0, 9, new xe::ColorMaterial(glm::vec4(1.f, 0.f, 0.f, 1.f)));

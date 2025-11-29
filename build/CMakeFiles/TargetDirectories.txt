@@ -1,35 +1,38 @@
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/CMakeFiles/glad.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-build/CMakeFiles/uninstall.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-build/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-build/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-build/src/CMakeFiles/glfw.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-build/src/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-build/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-build/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-build/glm/CMakeFiles/glm.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-build/glm/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-build/CMakeFiles/spdlog.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-build/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-build/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Application/CMakeFiles/application.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Application/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Application/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/ObjectReader/CMakeFiles/objreader.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/ObjectReader/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/ObjectReader/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/XeEngine/CMakeFiles/xe-engine.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/XeEngine/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/XeEngine/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Engine/CMakeFiles/engine.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Engine/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Engine/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/Triangle/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/Triangle/CMakeFiles/ALL_BUILD.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/CMakeFiles/House.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/CMakeFiles/INSTALL.dir
-C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/CMakeFiles/glad.dir
+C:/Users/klaud/Desktop/3d/build/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glfw-build/CMakeFiles/uninstall.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glfw-build/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glfw-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glfw-build/src/CMakeFiles/glfw.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glfw-build/src/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glm-build/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glm-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glm-build/glm/CMakeFiles/glm.dir
+C:/Users/klaud/Desktop/3d/build/_deps/glm-build/glm/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/_deps/spdlog-build/CMakeFiles/spdlog.dir
+C:/Users/klaud/Desktop/3d/build/_deps/spdlog-build/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/_deps/spdlog-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/Application/CMakeFiles/application.dir
+C:/Users/klaud/Desktop/3d/build/src/Application/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/Application/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/ObjectReader/CMakeFiles/objreader.dir
+C:/Users/klaud/Desktop/3d/build/src/ObjectReader/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/ObjectReader/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/XeEngine/CMakeFiles/xe-engine.dir
+C:/Users/klaud/Desktop/3d/build/src/XeEngine/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/XeEngine/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/Engine/CMakeFiles/engine.dir
+C:/Users/klaud/Desktop/3d/build/src/Engine/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/Engine/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Triangle/CMakeFiles/MeshesMaterials.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Triangle/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Triangle/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/House/CMakeFiles/House.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/House/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/House/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Indices/CMakeFiles/indices.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Indices/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Indices/CMakeFiles/ALL_BUILD.dir

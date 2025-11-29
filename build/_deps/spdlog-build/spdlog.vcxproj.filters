@@ -1,354 +1,354 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\src\spdlog.cpp">
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\src\spdlog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\src\stdout_sinks.cpp">
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\src\stdout_sinks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\src\color_sinks.cpp">
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\src\color_sinks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\src\file_sinks.cpp">
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\src\file_sinks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\src\async.cpp">
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\src\async.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\src\cfg.cpp">
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\src\cfg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\src\bundled_fmtlib_format.cpp">
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\src\bundled_fmtlib_format.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\async.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\async.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\async_logger-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\async_logger-inl.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\async_logger.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\async_logger.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\common-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\common-inl.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\common.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\common.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\formatter.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\formatter.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fwd.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fwd.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\logger-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\logger-inl.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\logger.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\logger.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\mdc.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\mdc.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\pattern_formatter-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\pattern_formatter-inl.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\pattern_formatter.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\pattern_formatter.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\spdlog-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\spdlog-inl.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\spdlog.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\spdlog.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\stopwatch.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\stopwatch.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\tweakme.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\tweakme.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\version.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\version.h">
       <Filter>Header Files\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\backtracer-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\backtracer-inl.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\backtracer.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\backtracer.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\circular_q.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\circular_q.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\console_globals.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\console_globals.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\file_helper-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\file_helper-inl.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\file_helper.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\file_helper.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\fmt_helper.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\fmt_helper.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\log_msg-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\log_msg-inl.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\log_msg.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\log_msg.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\log_msg_buffer-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\log_msg_buffer-inl.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\log_msg_buffer.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\log_msg_buffer.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\mpmc_blocking_q.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\mpmc_blocking_q.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\null_mutex.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\null_mutex.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\os-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\os-inl.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\os.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\os.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\periodic_worker-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\periodic_worker-inl.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\periodic_worker.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\periodic_worker.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\registry-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\registry-inl.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\registry.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\registry.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\synchronous_factory.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\synchronous_factory.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\tcp_client-windows.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\tcp_client-windows.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\tcp_client.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\tcp_client.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\thread_pool-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\thread_pool-inl.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\thread_pool.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\thread_pool.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\udp_client-windows.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\udp_client-windows.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\udp_client.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\udp_client.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\details\windows_include.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\details\windows_include.h">
       <Filter>Header Files\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\android_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\android_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\ansicolor_sink-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\ansicolor_sink-inl.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\ansicolor_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\ansicolor_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\base_sink-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\base_sink-inl.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\base_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\base_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\basic_file_sink-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\basic_file_sink-inl.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\basic_file_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\basic_file_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\callback_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\callback_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\daily_file_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\daily_file_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\dist_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\dist_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\dup_filter_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\dup_filter_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\hourly_file_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\hourly_file_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\kafka_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\kafka_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\mongo_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\mongo_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\msvc_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\msvc_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\null_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\null_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\ostream_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\ostream_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\qt_sinks.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\qt_sinks.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\ringbuffer_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\ringbuffer_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\rotating_file_sink-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\rotating_file_sink-inl.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\rotating_file_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\rotating_file_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\sink-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\sink-inl.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\stdout_color_sinks-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\stdout_color_sinks-inl.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\stdout_color_sinks.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\stdout_color_sinks.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\stdout_sinks-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\stdout_sinks-inl.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\stdout_sinks.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\stdout_sinks.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\syslog_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\syslog_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\systemd_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\systemd_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\tcp_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\tcp_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\udp_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\udp_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\win_eventlog_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\win_eventlog_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\wincolor_sink-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\wincolor_sink-inl.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\sinks\wincolor_sink.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\sinks\wincolor_sink.h">
       <Filter>Header Files\spdlog\sinks</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bin_to_hex.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bin_to_hex.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\chrono.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\chrono.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\compile.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\compile.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\fmt.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\fmt.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\ostr.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\ostr.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\ranges.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\ranges.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\std.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\std.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\xchar.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\xchar.h">
       <Filter>Header Files\spdlog\fmt</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\args.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\args.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\base.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\base.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\chrono.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\chrono.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\color.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\color.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\compile.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\compile.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\core.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\core.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\format-inl.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\format-inl.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\format.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\format.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\os.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\os.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\ostream.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\ostream.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\printf.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\printf.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\ranges.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\ranges.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\std.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\std.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\xchar.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include\spdlog\fmt\bundled\xchar.h">
       <Filter>Header Files\spdlog\fmt\bundled</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{36852728-F9A7-356B-82EC-05A1CAFCEA81}</UniqueIdentifier>
+      <UniqueIdentifier>{A9B4BBD5-B1F8-319E-AE9D-25BC544AB948}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\spdlog">
-      <UniqueIdentifier>{CD296905-AB4B-309B-9530-F2B4FDB97348}</UniqueIdentifier>
+      <UniqueIdentifier>{873401DA-AD6F-34A0-B31D-ECB0045913FF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\spdlog\details">
-      <UniqueIdentifier>{4B29D8AE-5906-3B6A-BF12-F717C195A6BC}</UniqueIdentifier>
+      <UniqueIdentifier>{2DB0A390-5517-398A-8A03-5C50B75F4F10}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\spdlog\fmt">
-      <UniqueIdentifier>{69F11434-0169-3488-80CC-D2FA3097847D}</UniqueIdentifier>
+      <UniqueIdentifier>{EA2EE254-3529-3C22-8087-DA0F9BF68B52}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\spdlog\fmt\bundled">
-      <UniqueIdentifier>{E51E9510-436B-3C11-9694-D9EDD2F5BAAB}</UniqueIdentifier>
+      <UniqueIdentifier>{F00A28AA-927D-374A-94F7-B683BC17540D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\spdlog\sinks">
-      <UniqueIdentifier>{E8D93CC3-522F-3999-99C0-19EE85E7BB4F}</UniqueIdentifier>
+      <UniqueIdentifier>{7E4B2801-A61B-3E1C-92B9-86CE9B8BA8AC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2C9900E1-C51A-373F-A9B6-23BC1F534F4C}</UniqueIdentifier>
+      <UniqueIdentifier>{8C441344-D72D-3AA8-9552-C99B9D59A29E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

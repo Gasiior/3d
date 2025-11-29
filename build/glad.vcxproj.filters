@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\src\gl.c">
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\src\gl.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\stb\stb_image.h">
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\src\3rdParty\stb\stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{36852728-F9A7-356B-82EC-05A1CAFCEA81}</UniqueIdentifier>
+      <UniqueIdentifier>{A9B4BBD5-B1F8-319E-AE9D-25BC544AB948}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2C9900E1-C51A-373F-A9B6-23BC1F534F4C}</UniqueIdentifier>
+      <UniqueIdentifier>{8C441344-D72D-3AA8-9552-C99B9D59A29E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

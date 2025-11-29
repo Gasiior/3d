@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-subbuild\CMakeFiles\fb0f4eb9ba415bb41114264587cf3808\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glm-subbuild\CMakeFiles\42229a7624bcf592588c9700b0a91b27\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{7534C1A9-1474-318A-A0B9-F186ACA7ED10}</UniqueIdentifier>
+      <UniqueIdentifier>{DF46BD9B-DBC8-3642-A822-45B25D8A783A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\ADC6A9CE242FE3DAE637D8D8744E9BF0\GLFW-POPULATE-MKDIR.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\74C811882DDE92DEFD350636018A2951\GLFW-POPULATE-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,15 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\ADC6A9CE242FE3DAE637D8D8744E9BF0\GLFW-POPULATE-DOWNLOAD.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\74C811882DDE92DEFD350636018A2951\GLFW-POPULATE-DOWNLOAD.RULE
 setlocal
-cd "C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps"
+cd C:\Users\klaud\Desktop\3d\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\ADC6A9CE242FE3DAE637D8D8744E9BF0\GLFW-POPULATE-UPDATE.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\74C811882DDE92DEFD350636018A2951\GLFW-POPULATE-UPDATE.RULE
 setlocal
-cd "C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src"
+cd C:\Users\klaud\Desktop\3d\build\_deps\glfw-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,11 +40,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\ADC6A9CE242FE3DAE637D8D8744E9BF0\GLFW-POPULATE-PATCH.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\74C811882DDE92DEFD350636018A2951\GLFW-POPULATE-PATCH.RULE
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -52,31 +52,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\ADC6A9CE242FE3DAE637D8D8744E9BF0\GLFW-POPULATE-CONFIGURE.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\74C811882DDE92DEFD350636018A2951\GLFW-POPULATE-CONFIGURE.RULE
 setlocal
-cd "C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-build"
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\ADC6A9CE242FE3DAE637D8D8744E9BF0\GLFW-POPULATE-BUILD.RULE
-setlocal
-cd "C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-build"
+cd C:\Users\klaud\Desktop\3d\build\_deps\glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -84,15 +68,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\ADC6A9CE242FE3DAE637D8D8744E9BF0\GLFW-POPULATE-INSTALL.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\74C811882DDE92DEFD350636018A2951\GLFW-POPULATE-BUILD.RULE
 setlocal
-cd "C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-build"
+cd C:\Users\klaud\Desktop\3d\build\_deps\glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -100,15 +84,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\ADC6A9CE242FE3DAE637D8D8744E9BF0\GLFW-POPULATE-TEST.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\74C811882DDE92DEFD350636018A2951\GLFW-POPULATE-INSTALL.RULE
 setlocal
-cd "C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-build"
+cd C:\Users\klaud\Desktop\3d\build\_deps\glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -116,13 +100,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\62CE1328F4EFE6456E228A16E836F315\GLFW-POPULATE-COMPLETE.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\74C811882DDE92DEFD350636018A2951\GLFW-POPULATE-TEST.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/Debug"
+cd C:\Users\klaud\Desktop\3d\build\_deps\glfw-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete"
+C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -130,7 +116,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\09F1DDAED4D6D9A64EEB1E6168A8104F\GLFW-POPULATE.RULE
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\BE76A8B8F318A7C291FCFE09AC689FA2\GLFW-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\B505ED96AECC0C5FAE5670A9C68317A2\GLFW-POPULATE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -138,9 +138,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\KLAUD\DESKTOP\3D 2\3D 2\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\KLAUD\DESKTOP\3D\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild -BC:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild --check-stamp-file C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

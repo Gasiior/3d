@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/09f1ddaed4d6d9a64eeb1e6168a8104f/glfw-populate.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/b505ed96aecc0c5fae5670a9c68317a2/glfw-populate.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/62ce1328f4efe6456e228a16e836f315/glfw-populate-complete.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/be76a8b8f318a7c291fcfe09ac689fa2/glfw-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/adc6a9ce242fe3dae637d8d8744e9bf0/glfw-populate-build.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/74c811882dde92defd350636018a2951/glfw-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/adc6a9ce242fe3dae637d8d8744e9bf0/glfw-populate-configure.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/74c811882dde92defd350636018a2951/glfw-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/adc6a9ce242fe3dae637d8d8744e9bf0/glfw-populate-download.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/74c811882dde92defd350636018a2951/glfw-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/adc6a9ce242fe3dae637d8d8744e9bf0/glfw-populate-install.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/74c811882dde92defd350636018a2951/glfw-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/adc6a9ce242fe3dae637d8d8744e9bf0/glfw-populate-mkdir.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/74c811882dde92defd350636018a2951/glfw-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/adc6a9ce242fe3dae637d8d8744e9bf0/glfw-populate-patch.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/74c811882dde92defd350636018a2951/glfw-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/adc6a9ce242fe3dae637d8d8744e9bf0/glfw-populate-test.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/74c811882dde92defd350636018a2951/glfw-populate-test.rule"
 		},
 		{
-			"file" : "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-subbuild/CMakeFiles/adc6a9ce242fe3dae637d8d8744e9bf0/glfw-populate-update.rule"
+			"file" : "C:/Users/klaud/Desktop/3d/build/_deps/glfw-subbuild/CMakeFiles/74c811882dde92defd350636018a2951/glfw-populate-update.rule"
 		}
 	],
 	"target" : 

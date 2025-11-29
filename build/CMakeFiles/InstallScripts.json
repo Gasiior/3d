@@ -1,18 +1,19 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-build/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glfw-build/src/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-build/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/glm-build/glm/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-build/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Application/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/ObjectReader/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/XeEngine/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Engine/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/Triangle/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/cmake_install.cmake"
+		"C:/Users/klaud/Desktop/3d/build/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/_deps/glfw-build/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/_deps/glfw-build/src/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/_deps/glm-build/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/_deps/glm-build/glm/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/_deps/spdlog-build/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/Application/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/ObjectReader/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/XeEngine/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/Engine/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/Assignments/Triangle/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/Assignments/House/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/Assignments/Indices/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

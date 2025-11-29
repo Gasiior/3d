@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\CMakeFiles\a6b18440782820c2bfa7209800a6eaf8\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\CMakeFiles\87340543aa875d9dce8207e37ccc60bf\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{66C92454-DB6F-3D7E-936A-918A98A52A57}</UniqueIdentifier>
+      <UniqueIdentifier>{946B761F-77D5-35A1-A674-35E6A69D0A76}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

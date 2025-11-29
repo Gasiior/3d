@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F00F5861-EB03-3C45-A487-5C37EBF46CD7}</ProjectGuid>
+    <ProjectGuid>{9AF86D46-BB2F-3086-B848-E76E7361166C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Assignments\House\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\klaud\Desktop\3d\build\src\Assignments\House\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">House.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">House</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Assignments\House\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\klaud\Desktop\3d\build\src\Assignments\House\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">House.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">House</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Assignments\House\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\klaud\Desktop\3d\build\src\Assignments\House\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">House.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">House</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Assignments\House\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\klaud\Desktop\3d\build\src\Assignments\House\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">House.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">House</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -108,16 +108,16 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="House";PROJECT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House";SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="House";PROJECT_DIR="C:/Users/klaud/Desktop/3d/src/Assignments/House";SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"House\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House\";SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"House\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d/src/Assignments/House\";SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -132,9 +132,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/Debug/House.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/klaud/Desktop/3d/build/src/Assignments/House/Debug/House.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/Debug/House.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/klaud/Desktop/3d/build/src/Assignments/House/Debug/House.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -165,18 +165,18 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="House";PROJECT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House";SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="House";PROJECT_DIR="C:/Users/klaud/Desktop/3d/src/Assignments/House";SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"House\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House\";SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"House\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d/src/Assignments/House\";SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -191,9 +191,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/Release/House.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/klaud/Desktop/3d/build/src/Assignments/House/Release/House.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/Release/House.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/klaud/Desktop/3d/build/src/Assignments/House/Release/House.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -203,7 +203,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -224,18 +224,18 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="House";PROJECT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House";SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="House";PROJECT_DIR="C:/Users/klaud/Desktop/3d/src/Assignments/House";SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"House\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House\";SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"House\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d/src/Assignments/House\";SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,9 +250,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/MinSizeRel/House.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/klaud/Desktop/3d/build/src/Assignments/House/MinSizeRel/House.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/MinSizeRel/House.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/klaud/Desktop/3d/build/src/Assignments/House/MinSizeRel/House.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -262,7 +262,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -284,16 +284,16 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="House";PROJECT_DIR="C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House";SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR="C:/Users/klaud/Desktop/3d";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME="House";PROJECT_DIR="C:/Users/klaud/Desktop/3d/src/Assignments/House";SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"House\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House\";SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;ROOT_DIR=\"C:/Users/klaud/Desktop/3d\";XE_DEBUG;MAJOR=4;MINOR=6;PROJECT_NAME=\"House\";PROJECT_DIR=\"C:/Users/klaud/Desktop/3d/src/Assignments/House\";SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\klaud\Desktop\3d\src\3rdParty;C:\Users\klaud\Desktop\3d\src;C:\Users\klaud\Desktop\3d\src\3rdParty\glad\glad_4_6\glad\include;C:\Users\klaud\Desktop\3d\build\_deps\glfw-src\include;C:\Users\klaud\Desktop\3d\build\_deps\glm-src;C:\Users\klaud\Desktop\3d\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -308,9 +308,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/RelWithDebInfo/House.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/klaud/Desktop/3d/build/src/Assignments/House/RelWithDebInfo/House.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/RelWithDebInfo/House.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/klaud/Desktop/3d/build/src/Assignments/House/RelWithDebInfo/House.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -319,11 +319,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Assignments\House\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\src\Assignments\House\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d/src/Assignments/House/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/klaud/Desktop/3d -BC:/Users/klaud/Desktop/3d/build --check-stamp-file C:/Users/klaud/Desktop/3d/build/src/Assignments/House/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -332,11 +332,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Assignments\House\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\klaud\Desktop\3d\build\src\Assignments\House\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d/src/Assignments/House/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/klaud/Desktop/3d -BC:/Users/klaud/Desktop/3d/build --check-stamp-file C:/Users/klaud/Desktop/3d/build/src/Assignments/House/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -345,11 +345,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Assignments\House\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\klaud\Desktop\3d\build\src\Assignments\House\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d/src/Assignments/House/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/klaud/Desktop/3d -BC:/Users/klaud/Desktop/3d/build --check-stamp-file C:/Users/klaud/Desktop/3d/build/src/Assignments/House/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -358,11 +358,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Assignments\House\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\klaud\Desktop\3d\build\src\Assignments\House\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d 2/3d 2/3d/src/Assignments/House/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/klaud/Desktop/3d/src/Assignments/House/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/klaud/Desktop/3d 2/3d 2/3d" "-BC:/Users/klaud/Desktop/3d 2/3d 2/3d/build" --check-stamp-file "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/src/Assignments/House/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/klaud/Desktop/3d -BC:/Users/klaud/Desktop/3d/build --check-stamp-file C:/Users/klaud/Desktop/3d/build/src/Assignments/House/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -371,52 +371,52 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Assignments\House\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\klaud\Desktop\3d\build\src\Assignments\House\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Assignments\House\main.cpp" />
-    <ClInclude Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Assignments\House\app.h" />
-    <ClCompile Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\Assignments\House\app.cpp" />
-    <Object Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\glad.dir\$(Configuration)\gl.obj" />
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\src\Assignments\House\main.cpp" />
+    <ClInclude Include="C:\Users\klaud\Desktop\3d\src\Assignments\House\app.h" />
+    <ClCompile Include="C:\Users\klaud\Desktop\3d\src\Assignments\House\app.cpp" />
+    <Object Include="C:\Users\klaud\Desktop\3d\build\glad.dir\$(Configuration)\gl.obj" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\ZERO_CHECK.vcxproj">
-      <Project>{71C9F747-A278-3A03-B32C-E45A79650DA6}</Project>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\ZERO_CHECK.vcxproj">
+      <Project>{3DCDB51E-D0FF-3D71-9C4D-A8104108091B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\Application\application.vcxproj">
-      <Project>{9CAC8A3B-63F1-33C7-83CA-35038B6CB6DC}</Project>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\src\Application\application.vcxproj">
+      <Project>{2455C694-83E4-34E0-8188-92FF131D03D8}</Project>
       <Name>application</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\glad.vcxproj">
-      <Project>{B633C571-F6A5-3005-A6A7-F448D932FB80}</Project>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\glad.vcxproj">
+      <Project>{6F293992-905E-3C44-83C9-042F58F781BC}</Project>
       <Name>glad</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-build\src\glfw.vcxproj">
-      <Project>{1921BAE0-B519-35BE-A5B3-DF63BA3DB5BD}</Project>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-build\src\glfw.vcxproj">
+      <Project>{17FDD5ED-D859-3AEE-BB2F-CCF354EBB502}</Project>
       <Name>glfw</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glm-build\glm\glm.vcxproj">
-      <Project>{0B907BE9-B131-3108-A05D-D3C87DBAF01A}</Project>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\_deps\glm-build\glm\glm.vcxproj">
+      <Project>{023924FC-2868-308C-B109-AFF1693FA9F8}</Project>
       <Name>glm</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\ObjectReader\objreader.vcxproj">
-      <Project>{EC7E80D5-07E4-37D2-9591-EEC668CD9CB9}</Project>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\src\ObjectReader\objreader.vcxproj">
+      <Project>{8F7DB57F-9189-3809-8784-8F31BDA52074}</Project>
       <Name>objreader</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\spdlog-build\spdlog.vcxproj">
-      <Project>{E78D3E64-7E6F-31B7-805F-6E80E2C5194F}</Project>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\_deps\spdlog-build\spdlog.vcxproj">
+      <Project>{883E7EC2-5C6D-31C1-95E7-C46FAA28E4FE}</Project>
       <Name>spdlog</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.vcxproj">
-      <Project>{E71EA2FC-46A3-369B-A7AB-3D397384F8A8}</Project>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.vcxproj">
+      <Project>{FA6EE851-0931-3FE2-8433-C8B053384D61}</Project>
       <Name>xe-engine</Name>
     </ProjectReference>
   </ItemGroup>

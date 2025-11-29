@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\adc6a9ce242fe3dae637d8d8744e9bf0\glfw-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\74c811882dde92defd350636018a2951\glfw-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\adc6a9ce242fe3dae637d8d8744e9bf0\glfw-populate-download.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\74c811882dde92defd350636018a2951\glfw-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\adc6a9ce242fe3dae637d8d8744e9bf0\glfw-populate-update.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\74c811882dde92defd350636018a2951\glfw-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\adc6a9ce242fe3dae637d8d8744e9bf0\glfw-populate-patch.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\74c811882dde92defd350636018a2951\glfw-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\adc6a9ce242fe3dae637d8d8744e9bf0\glfw-populate-configure.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\74c811882dde92defd350636018a2951\glfw-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\adc6a9ce242fe3dae637d8d8744e9bf0\glfw-populate-build.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\74c811882dde92defd350636018a2951\glfw-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\adc6a9ce242fe3dae637d8d8744e9bf0\glfw-populate-install.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\74c811882dde92defd350636018a2951\glfw-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\adc6a9ce242fe3dae637d8d8744e9bf0\glfw-populate-test.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\74c811882dde92defd350636018a2951\glfw-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\62ce1328f4efe6456e228a16e836f315\glfw-populate-complete.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\be76a8b8f318a7c291fcfe09ac689fa2\glfw-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\09f1ddaed4d6d9a64eeb1e6168a8104f\glfw-populate.rule">
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\b505ed96aecc0c5fae5670a9c68317a2\glfw-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+    <None Include="C:\Users\klaud\Desktop\3d\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{93B6F951-C69A-33B9-9CFC-18E87A7F85A1}</UniqueIdentifier>
+      <UniqueIdentifier>{83BB301A-A482-3B5A-8175-98C71E1707B6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
-C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\ColorMaterial.cpp;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.dir\Debug\ColorMaterial.obj
-C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Scene.cpp;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.dir\Debug\Scene.obj
-C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Mesh.cpp;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.dir\Debug\Mesh.obj
-C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\mesh_loader.cpp;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.dir\Debug\mesh_loader.obj
-C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\Node.cpp;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.dir\Debug\Node.obj
-C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\PhongMaterial.cpp;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.dir\Debug\PhongMaterial.obj
-C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\stb_image.cpp;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.dir\Debug\stb_image.obj
-C:\Users\klaud\Desktop\3d 2\3d 2\3d\src\XeEngine\utils.cpp;C:\Users\klaud\Desktop\3d 2\3d 2\3d\build\src\XeEngine\xe-engine.dir\Debug\utils.obj
+C:\Users\klaud\Desktop\3d\src\XeEngine\ColorMaterial.cpp;C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.dir\Debug\ColorMaterial.obj
+C:\Users\klaud\Desktop\3d\src\XeEngine\Scene.cpp;C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.dir\Debug\Scene.obj
+C:\Users\klaud\Desktop\3d\src\XeEngine\Mesh.cpp;C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.dir\Debug\Mesh.obj
+C:\Users\klaud\Desktop\3d\src\XeEngine\mesh_loader.cpp;C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.dir\Debug\mesh_loader.obj
+C:\Users\klaud\Desktop\3d\src\XeEngine\Node.cpp;C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.dir\Debug\Node.obj
+C:\Users\klaud\Desktop\3d\src\XeEngine\PhongMaterial.cpp;C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.dir\Debug\PhongMaterial.obj
+C:\Users\klaud\Desktop\3d\src\XeEngine\stb_image.cpp;C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.dir\Debug\stb_image.obj
+C:\Users\klaud\Desktop\3d\src\XeEngine\utils.cpp;C:\Users\klaud\Desktop\3d\build\src\XeEngine\xe-engine.dir\Debug\utils.obj

@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(spdlog-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/gabime/spdlog.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.x"
-                    SOURCE_DIR          "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-src"
-                    BINARY_DIR          "C:/Users/klaud/Desktop/3d 2/3d 2/3d/build/_deps/spdlog-build"
+                    SOURCE_DIR          "C:/Users/klaud/Desktop/3d/build/_deps/spdlog-src"
+                    BINARY_DIR          "C:/Users/klaud/Desktop/3d/build/_deps/spdlog-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""
