@@ -42,16 +42,23 @@ void SimpleShapeApplication::init() {
 
     // Każdy wierzchołek: pozycja (x,y,z) + kolor (r,g,b)
     float vertices[] = {
-        // ściany – różne odcienie zieleni
-        -0.6f, -0.4f, 0.f,   0.10f, 0.80f, 0.15f,   // 0 lewy dół
-         0.6f, -0.4f, 0.f,   0.10f, 0.80f, 0.15f,   // 1 prawy dół
-        -0.6f,  0.20f, 0.f,  0.12f, 0.85f, 0.20f,   // 2 lewy góra ściany
-         0.6f,  0.20f, 0.f,  0.12f, 0.85f, 0.20f,   // 3 prawy góra ściany
+        // 0  lewy dół
+        -1.0f, -0.5f, 0.0f,     0.0f, 1.0f, 0.0f,
+        // 1  prawy dół
+         1.0f, -0.5f, 0.0f,     0.0f, 1.0f, 0.0f,
+        // 2 gora lewy 
+        -1.0f,  0.5f, 0.0f,    0.0f, 1.0f, 0.0f,
+        // 3 
+         1.0f,  0.5f, 0.0f,     0.0f, 1.0f, 0.0f,
+        //4 
+        0.0f, 1.0f, 0.0f,       1.0f, 0.0f, 0.0f,
 
-        // dach – odcienie czerwieni
-        -0.6f,  0.20f, 0.f,  0.90f, 0.10f, 0.10f,   // 4 lewy dolny róg dachu
-         0.6f,  0.20f, 0.f,  0.90f, 0.10f, 0.10f,   // 5 prawy dolny róg dachu
-         0.0f,  0.75f, 0.f,  0.95f, 0.20f, 0.15f    // 6 szczyt dachu
+        // 5 gora lewy 
+        -1.0f,  0.5f, 0.0f,     1.0f, 0.0f, 0.0f,
+        // 6
+         1.0f,  0.5f, 0.0f,     1.0f, 0.0f, 0.0f,
+        
+
     };
 
 #if __APPLE__

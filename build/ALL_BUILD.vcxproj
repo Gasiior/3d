@@ -186,6 +186,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{96171E7A-26BB-30E8-8AAC-797BA54CBDF9}</Project>
       <Name>MeshesMaterials</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\src\Assignments\Pyramid\Pyramid.vcxproj">
+      <Project>{5F9550E2-90C0-34ED-A16F-1B6B2822CDC3}</Project>
+      <Name>Pyramid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\src\Assignments\Uniforms\Uniforms.vcxproj">
+      <Project>{69B4869F-77AC-3383-8384-D0A4F3693B50}</Project>
+      <Name>Uniforms</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\klaud\Desktop\3d\build\src\Application\application.vcxproj">
       <Project>{2455C694-83E4-34E0-8188-92FF131D03D8}</Project>
       <Name>application</Name>

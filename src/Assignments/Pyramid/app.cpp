@@ -33,26 +33,29 @@ void SimpleShapeApplication::init() {
     // Indeksy określają z których wierzchołków zbudowane są trójkąty:
     // dwa trójkąty na "ściany" i jeden na dach.
     unsigned int indices[] = {
-        // prostokąt (dolna część domku)
-        0, 1, 3,
-        0, 3, 2,
-        // trójkąt dachu
-        4, 5, 6
-    };
+    // podstawa (kwadrat z 2 trójkątów)
+    0, 1, 2,
+    0, 2, 3,
 
+    // ściany boczne (4 trójkąty z wierzchołkiem 4)
+    4, 0, 1,
+    4, 1, 2,
+    4, 2, 3,
+    4, 3, 0
+};
     // Każdy wierzchołek: pozycja (x,y,z) + kolor (r,g,b)
     float vertices[] = {
-        // ściany – różne odcienie zieleni
-        -0.6f, -0.4f, 0.f,   0.10f, 0.80f, 0.15f,   // 0 lewy dół
-         0.6f, -0.4f, 0.f,   0.10f, 0.80f, 0.15f,   // 1 prawy dół
-        -0.6f,  0.20f, 0.f,  0.12f, 0.85f, 0.20f,   // 2 lewy góra ściany
-         0.6f,  0.20f, 0.f,  0.12f, 0.85f, 0.20f,   // 3 prawy góra ściany
+    // x,     y,     z,      r,    g,    b
 
-        // dach – odcienie czerwieni
-        -0.6f,  0.20f, 0.f,  0.90f, 0.10f, 0.10f,   // 4 lewy dolny róg dachu
-         0.6f,  0.20f, 0.f,  0.90f, 0.10f, 0.10f,   // 5 prawy dolny róg dachu
-         0.0f,  0.75f, 0.f,  0.95f, 0.20f, 0.15f    // 6 szczyt dachu
-    };
+    // podstawa – zielona
+    -0.5f, -0.5f, -0.5f,   0.1f, 0.8f, 0.1f,   // 0: lewy tył
+     0.5f, -0.5f, -0.5f,   0.1f, 0.8f, 0.1f,   // 1: prawy tył
+     0.5f, -0.5f,  0.5f,   0.1f, 0.8f, 0.1f,   // 2: prawy przód
+    -0.5f, -0.5f,  0.5f,   0.1f, 0.8f, 0.1f,   // 3: lewy przód
+
+    // szczyt – czerwony
+     0.0f,  0.5f,  0.0f,   0.9f, 0.1f, 0.1f    // 4: wierzchołek
+};
 
 #if __APPLE__
     auto u_modifiers_index = glGetUniformBlockIndex(program, "Modifiers");

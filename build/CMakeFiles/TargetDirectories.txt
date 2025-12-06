@@ -39,3 +39,9 @@ C:/Users/klaud/Desktop/3d/build/src/Assignments/Indices/CMakeFiles/ALL_BUILD.dir
 C:/Users/klaud/Desktop/3d/build/src/Assignments/Colors2/CMakeFiles/Colors2.dir
 C:/Users/klaud/Desktop/3d/build/src/Assignments/Colors2/CMakeFiles/INSTALL.dir
 C:/Users/klaud/Desktop/3d/build/src/Assignments/Colors2/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Uniforms/CMakeFiles/Uniforms.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Uniforms/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Uniforms/CMakeFiles/ALL_BUILD.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Pyramid/CMakeFiles/Pyramid.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Pyramid/CMakeFiles/INSTALL.dir
+C:/Users/klaud/Desktop/3d/build/src/Assignments/Pyramid/CMakeFiles/ALL_BUILD.dir

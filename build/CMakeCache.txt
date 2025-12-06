@@ -438,6 +438,15 @@ OPENGL_gl_LIBRARY:STRING=opengl32
 //GLU library for win32
 OPENGL_glu_LIBRARY:STRING=glu32
 
+//Value Computed by CMake
+Pyramid_BINARY_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/src/Assignments/Pyramid
+
+//Value Computed by CMake
+Pyramid_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Pyramid_SOURCE_DIR:STATIC=C:/Users/klaud/Desktop/3d/src/Assignments/Pyramid
+
 //Build all artifacts
 SPDLOG_BUILD_ALL:BOOL=OFF
 
@@ -539,8 +548,26 @@ SPDLOG_WCHAR_FILENAMES:BOOL=OFF
 //Support wchar api
 SPDLOG_WCHAR_SUPPORT:BOOL=OFF
 
+//Value Computed by CMake
+Triangle_BINARY_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/src/Assignments/Triangle
+
+//Value Computed by CMake
+Triangle_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Triangle_SOURCE_DIR:STATIC=C:/Users/klaud/Desktop/3d/src/Assignments/Triangle
+
 //Use MSVC runtime library DLL
 USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
+
+//Value Computed by CMake
+Uniforms_BINARY_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/src/Assignments/Uniforms
+
+//Value Computed by CMake
+Uniforms_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Uniforms_SOURCE_DIR:STATIC=C:/Users/klaud/Desktop/3d/src/Assignments/Uniforms
 
 //Value Computed by CMake
 XeEngine_BINARY_DIR:STATIC=C:/Users/klaud/Desktop/3d/build/src/XeEngine
@@ -721,7 +748,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

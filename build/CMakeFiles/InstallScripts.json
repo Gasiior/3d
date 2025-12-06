@@ -14,7 +14,9 @@
 		"C:/Users/klaud/Desktop/3d/build/src/Assignments/Triangle/cmake_install.cmake",
 		"C:/Users/klaud/Desktop/3d/build/src/Assignments/House/cmake_install.cmake",
 		"C:/Users/klaud/Desktop/3d/build/src/Assignments/Indices/cmake_install.cmake",
-		"C:/Users/klaud/Desktop/3d/build/src/Assignments/Colors2/cmake_install.cmake"
+		"C:/Users/klaud/Desktop/3d/build/src/Assignments/Colors2/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/Assignments/Uniforms/cmake_install.cmake",
+		"C:/Users/klaud/Desktop/3d/build/src/Assignments/Pyramid/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

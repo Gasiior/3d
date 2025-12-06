@@ -36,28 +36,25 @@ void SimpleShapeApplication::init() {
     glEnable(GL_CULL_FACE); 
 
       std::vector<GLushort> indices = {
-        // dół
-        0, 1, 2,
-        // środek + prawa strona dachu
+        0, 1, 3,
         0, 2, 3,
-        // lewa strona dachu
-        0, 3, 4
+        2, 4, 3
     };
     
     // A vector containing the x,y,z vertex coordinates + texture coords
      std::vector<GLfloat> vertices = {
         // x,     y,     z,      u,    v
 
-        // 0 – lewy dół
-        -0.5f, -0.5f, 0.0f,     0.0f, 0.0f,
-        // 1 – prawy dół
-         0.5f, -0.5f, 0.0f,     1.0f, 0.0f,
-        // 2 – prawy bok (środek)
-         0.5f,  0.0f, 0.0f,     1.0f, 0.5f,
-        // 3 – czubek dachu
-         0.0f,  0.5f, 0.0f,     0.5f, 1.0f,
-        // 4 – lewy bok (środek)
-        -0.5f,  0.0f, 0.0f,     0.0f, 0.5f,
+        // 0  lewy dół
+        -1.0f, -0.5f, 0.0f,     0.0f, 0.0f,
+        // 1  prawy dół
+         1.0f, -0.5f, 0.0f,     1.0f, 0.0f,
+        // 2 gora lewy 
+         -1.0f,  0.5f, 0.0f,     1.0f, 0.5f,
+        // 3 
+         1.0f,  0.5f, 0.0f,     0.5f, 1.0f,
+        // 4 
+        0.0f,  1.0f, 0.0f,     0.0f, 0.5f,
     };
 
     // PVM uniform
